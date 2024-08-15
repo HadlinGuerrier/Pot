@@ -61,7 +61,7 @@ body{
   @media (max-width: 768px) {
 
 
- /* Styles pour le bouton */
+/* Styles pour le bouton */
 .c-btn {
     border: none;
     background: #fca61f;
@@ -85,13 +85,15 @@ body{
     width: 200px; /* Ajuster la largeur selon les besoins */
 }
 
+/* Styles pour la disposition de la page */
+.home .row {
+    display: flex; /* Utiliser Flexbox pour le conteneur */
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-left: 200px; /* Ajuster pour le padding gauche */
+    padding: 20px; /* Ajuster le padding selon les besoins */
+}
 
-    .home .row {
-      flex-direction: column-reverse;
-      text-align: center;
-      margin: 0px;
-    }
-  
     .home img {
       margin-bottom: 20px;
       width: 80%;
