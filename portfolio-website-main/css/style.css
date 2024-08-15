@@ -68,8 +68,8 @@ body{
     .nav-menu {
         border: none;
         background-color: #fff;
-        font-size: 0.8rem;
-        color: #6f34fe;
+        font-size: 1.3rem;
+        color: #3f396d;
         order: 2; /* Place le menu après le bouton */
     }
 
