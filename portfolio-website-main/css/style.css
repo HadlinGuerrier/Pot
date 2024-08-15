@@ -71,7 +71,7 @@ body{
     font-size: 1.3rem;
     color: #3f396d;
     order: 2; /* Place le menu après le bouton */
-    margin-left: 20px; /* Distance entre le bouton et le menu */
+    margin-left: 40px; /* Distance entre le bouton et le menu */
 }
 
 .c-btn {
