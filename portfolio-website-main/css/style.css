@@ -59,7 +59,25 @@ body{
   
   /* Style pour petits écrans */
   @media (max-width: 768px) {
- .c-btn{
+
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .content {
+        height: 100vh; /* Hauteur de l'écran */
+        width: 100vw;  /* Largeur de l'écran */
+        box-sizing: border-box; /* Inclut les bordures et le padding dans la largeur totale */
+    }  
+
+
+
+      
+    .c-btn{
         border: none;
         background: #fca61f;
         color: #fff;
