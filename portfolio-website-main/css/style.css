@@ -67,6 +67,7 @@ body{
 
 .nav-menu {
     border: none;
+    margin:2px;
     background-color: #fff;
     font-size: 1.3rem;
     color: #3f396d;
