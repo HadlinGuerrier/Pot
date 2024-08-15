@@ -65,23 +65,23 @@ body{
         flex-direction: column; /* Assure que les éléments se placent en colonne */
     }
 
-    .nav-menu {
-        border: none;
-        background-color: #fff;
-        font-size: 1.3rem;
-        color: #3f396d;
-        order: 2; /* Place le menu après le bouton */
-    }
+.nav-menu {
+    border: none;
+    background-color: #fff;
+    font-size: 1.3rem;
+    color: #3f396d;
+    order: 2; /* Place le menu après le bouton */
+    margin-left: 20px; /* Distance entre le bouton et le menu */
+}
 
-    .c-btn {
-        border: none;
-        background: #fca61f;
-        color: #fff;
-        font-size: 0.8rem;
-        margin-left: 0px;
-        order: 1; /* Place le bouton avant le menu */
-    }
-
+.c-btn {
+    border: none;
+    background: #fca61f;
+    color: #fff;
+    font-size: 0.8rem;
+    margin-left: 0px; /* Vous pouvez ajuster si nécessaire */
+    order: 1; /* Place le bouton avant le menu */
+}
 
 
   
