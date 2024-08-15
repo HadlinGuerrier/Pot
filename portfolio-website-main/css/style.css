@@ -77,14 +77,12 @@ body{
 
 
   
-/* Styles pour la disposition de la page */
-.home .row {
-    display: flex; /* Utiliser Flexbox pour le conteneur */
-    flex-direction: column-reverse;
-    text-align: center;
-    margin-left: 200px; /* Ajuster pour le padding gauche */
-    padding: 20px; /* Ajuster le padding selon les besoins */
-}
+    .home .row {
+      flex-direction: column-reverse;
+      text-align: center;
+      margin: 0px;
+    }
+  
 
     .home img {
       margin-bottom: 20px;
