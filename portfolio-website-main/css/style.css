@@ -59,22 +59,27 @@ body{
   
   /* Style pour petits écrans */
   @media (max-width: 768px) {
-
-
-
-
       
-   
-    .nav-menu{
+  .container { /* Conteneur des éléments c-btn et nav-menu */
+        display: flex;
+        flex-direction: column; /* Assure que les éléments se placent en colonne */
+    }
+
+    .nav-menu {
         border: none;
         background-color: #fff;
         font-size: 0.8rem;
         color: #fca61f;
-        position: left;
+        order: 2; /* Place le menu après le bouton */
     }
 
-      .c-btn {
-        display: none;
+    .c-btn {
+        border: none;
+        background: #fca61f;
+        color: #fff;
+        font-size: 0.8rem;
+        margin-left: 0px;
+        order: 1; /* Place le bouton avant le menu */
     }
 
 
