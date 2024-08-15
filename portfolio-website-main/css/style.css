@@ -59,32 +59,24 @@ body{
   
   /* Style pour petits écrans */
   @media (max-width: 768px) {
+ .c-btn{
+        border: none;
+        background: #fca61f;
+        color: #fff;
+        font-size: 0.8rem;
+        margin-left: 0px;
+    }
+
+    .nav-menu{
+        border: none;
+        background-color: #fff;
+        font-size: 0.8rem;
+        color: #fca61f;
+        position: left;
+    }
 
 
-/* Styles pour le bouton */
-.c-btn {
-    border: none;
-    background: #fca61f;
-    color: #fff;
-    font-size: 0.8rem;
-    margin-left: 0px;
-    display: block;
-    margin: 0 auto; /* Centrer horizontalement */
-}
-
-/* Styles pour la barre de navigation */
-.nav-menu {
-    border: none;
-    background-color: #fff;
-    font-size: 0.8rem;
-    color: #fca61f;
-    position: absolute; /* Positionner la barre de navigation */
-    left: 0; /* Alignement complet à gauche */
-    top: 0; /* Positionner en haut de la page */
-    height: 100vh; /* Prendre toute la hauteur de la vue */
-    width: 200px; /* Ajuster la largeur selon les besoins */
-}
-
+  
 /* Styles pour la disposition de la page */
 .home .row {
     display: flex; /* Utiliser Flexbox pour le conteneur */
