@@ -58,7 +58,7 @@ body{
   }
   
   /* Style pour petits écrans */
-  @media (max-width: 768px) {
+  @media (max-width: 568px) {
 
 
     html, body {
